@@ -22,7 +22,7 @@ describe("shout", function() {
     expect(yourCode.shout('Frog')).toEqual("Hello FROG");
   });
 
-  xit("returns Hello plus the string you pass it, upper case", function() {
+  it("returns Hello plus the string you pass it, upper case", function() {
     expect(yourCode.shout('Fox')).toEqual("Hello FOX");
   });
 
@@ -54,7 +54,7 @@ describe("separate", function() {
 
 describe("reverseJoin", function() {
 
-  xit("returns the characters of the given array, reversed and joined", function() {
+  it("returns the characters of the given array, reversed and joined", function() {
     expect(yourCode.reverseJoin(['j', 'u', 'm', 'b', 'o'])).toEqual('o,b,m,u,j');
   });
 

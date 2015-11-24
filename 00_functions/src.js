@@ -8,8 +8,8 @@ module.exports = {
     return "Hello " + string;
   },
 
-  shout: function() {
-    return "Hello " + 'Frog'.toUpperCase();
+  shout: function (string) {
+    return "Hello " + string.toUpperCase();
   },
 
   whisper: function(){
@@ -19,6 +19,11 @@ module.exports = {
   separate: function(){
       var a = "jumbo".split('');
       return a;
+  },
+
+  reverseJoin: function(){
+    var a = 'jumbo'.split('').reverse().join();
+    return a;
   },
 
   };
