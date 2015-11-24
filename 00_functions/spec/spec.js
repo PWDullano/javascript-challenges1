@@ -30,7 +30,7 @@ describe("shout", function() {
 
 describe("whisper", function() {
 
-  xit("returns Hello plus the string you pass it, lower case", function() {
+  it("returns Hello plus the string you pass it, lower case", function() {
     expect(yourCode.whisper('Frog')).toEqual("Hello frog");
   });
 
@@ -42,7 +42,7 @@ describe("whisper", function() {
 
 describe("separate", function() {
 
-  xit("returns the characters of the given word as an array", function() {
+  it("returns the characters of the given word as an array", function() {
     expect(yourCode.separate('jumbo')).toEqual(['j', 'u', 'm', 'b', 'o']);
   });
 
