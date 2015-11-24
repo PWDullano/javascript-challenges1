@@ -10,7 +10,7 @@ describe("helloWorld", function() {
 
 describe("hello", function() {
 
-  xit("returns Hello plus the string you pass it", function() {
+  it("returns Hello plus the string you pass it", function() {
     expect(yourCode.hello('Frog')).toEqual("Hello Frog");
   });
 
