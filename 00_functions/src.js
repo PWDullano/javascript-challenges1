@@ -9,6 +9,6 @@ module.exports = {
   },
 
   shout: function() {
-
+    return "Hello " + 'Frog'.toUpperCase();
   }
 }

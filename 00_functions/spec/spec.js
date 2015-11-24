@@ -18,7 +18,7 @@ describe("hello", function() {
 
 describe("shout", function() {
 
-  xit("returns Hello plus the string you pass it, upper case", function() {
+  it("returns Hello plus the string you pass it, upper case", function() {
     expect(yourCode.shout('Frog')).toEqual("Hello FROG");
   });
 
