@@ -23,11 +23,11 @@ describe('last', function() {
 });
 
 describe('empty', function() {
-  xit('returns true if the array has no elements', function() {
+  it('returns true if the array has no elements', function() {
     expect(yourCode.empty([])).toEqual(true);
   });
 
-  xit('returns false if the array has elements', function() {
+  it('returns false if the array has elements', function() {
     expect(yourCode.empty([1,2,3])).toEqual(false);
   });
 });
