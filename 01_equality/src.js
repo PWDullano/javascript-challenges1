@@ -13,7 +13,29 @@ module.exports = {
     } else {
       return false;
     }
+  },
+
+  firstGreaterOrEqualTo: function (a, b){
+    if(a >= b){
+      return true;
+    } else {
+      return false;
+    }
+  },
+
+  firstLengthGreater: function (a, b){
+    if(a.length > b.length){
+      return true;
+    } else {
+      return false;
+    }
+  },
+
+  secondGreater: function (a, b){
+    if(a < b){
+      return true;
+    } else {
+      return false;
+    }
   }
-
-
 }
