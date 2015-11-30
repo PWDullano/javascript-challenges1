@@ -1,5 +1,9 @@
 module.exports = {
   sameLength: function(string1, string2) {
-    // your code here:
+    if(string1.length === string2.length){
+      return true;
+    } else {
+      return false;
+    }
   }
 }

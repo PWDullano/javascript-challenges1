@@ -28,6 +28,8 @@ module.exports = {
   reverseJoin: function(string){
     var a = 'jumbo'.split('').reverse().join();
     return a;
+    var b = 'foobar'.split('').reverse().join();
+    return b;
   },
 
   reverseJoinCompact: function (string){
@@ -35,4 +37,11 @@ module.exports = {
     return a;
   },
 
+  backwardsDay: function (string){
+  var o = '';
+    for (var i = string.length - 1;i >= 0; i--) {
+      o += string[i];
+      return o ;
+    }
+   }
   };
